@@ -5,12 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "lint:fix": "eslint --fix",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
     "test": "vitest",
-    "preview": "tsc && vite build && vite preview --port=8030 --strictPort"
+    "preview": "vite build && vite preview --port=8030 --strictPort"
   },
   "dependencies": {
     "prop-types": "^15.8.1",

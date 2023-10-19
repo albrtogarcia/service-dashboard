@@ -18,7 +18,7 @@ export default defineConfig({
       },
       // Modules to expose
       exposes: {
-        './Home': './src/pages/Home.jsx',
+        './Home': './src/pages/Home/Home.jsx',
       },
       shared: ['react', 'react-dom'], // libs/deps to be shared
     }),
