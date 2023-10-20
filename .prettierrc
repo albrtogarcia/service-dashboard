@@ -6,6 +6,6 @@
   "singleQuote": true,
   "trailingComma": "all",
   "jsxBracketSameLine": true,
-  "jsxSingleQuote": true,
+  "jsxSingleQuote": false,
   "htmlWhitespaceSensitivity": "css"
 }

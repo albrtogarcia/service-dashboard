@@ -14,7 +14,6 @@ export default defineConfig({
       // Remotes to consume
       remotes: {
         core: 'http://localhost:8010/assets/coreEntry.js',
-        auth: 'http://localhost:8020/assets/authEntry.js',
       },
       // Modules to expose
       exposes: {

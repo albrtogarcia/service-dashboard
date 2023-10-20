@@ -1,12 +1,17 @@
 import Button from 'core/Button'
-import Input from 'auth/Input'
+import Input from 'core/Input'
 
-export const Home = () => {
+const Home = () => {
   return (
-    <div className='card'>
+    <div className="card">
       <h2>Home</h2>
-      <Input />
-      <Button text='Login' />
+      <p>
+        Home page in <code>/src/pages/Home</code> with components from Core Library.
+      </p>
+      <Input type="text" label="Name" />
+      <Button />
     </div>
   )
 }
+
+export default Home
