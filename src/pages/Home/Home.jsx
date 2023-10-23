@@ -9,7 +9,7 @@ const Home = () => {
         Home page in <code>/src/pages/Home</code> with components from Core Library.
       </p>
       <Input type="text" label="Name" />
-      <Button />
+      <Button>Send</Button>
     </div>
   )
 }
